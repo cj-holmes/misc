@@ -1,7 +1,7 @@
 # Plot all shapes and colours
 df <- expand.grid(x=1:7, y=4:1)
 
-png("pch_ref_plot/pch_reference_plot.png", width=297, height=210,  units = "mm", res=300)
+png("pch_ref_plot/pch_reference_plot.png", width=200, height=180,  units = "mm", res=300)
 
 par(mar=c(4,4,4,4))
 plot(df$x, df$y, pch=c(0:25,NA,NA), col=1, bg=24,
